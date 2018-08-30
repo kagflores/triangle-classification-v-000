@@ -16,7 +16,7 @@ class Triangle
         puts error.message
       end
     else
-      if @s1==@s2==@s3
+      if @s1==@s2 && @s1==@s3
         :equilateral
       elsif @s1 == @s2 || @s1 == @s3 || @s2==@s3
         :isosceles
