@@ -12,7 +12,7 @@ class Triangle
       @s1+@s2<@s3 || @s1+@s3<@s2 || @s2+@s3<@s1
       begin
         raise TriangleError
-      rescue TriangleError => error
+      #rescue TriangleError => error
         puts error.message
       end
     else
